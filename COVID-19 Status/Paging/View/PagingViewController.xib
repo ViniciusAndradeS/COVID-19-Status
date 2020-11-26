@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PagingViewController" customModule="COVID_19_Status" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="UGF-Gy-MO8" id="aW7-oG-LSI"/>
+                <outlet property="pageControl" destination="SxR-be-pQN" id="H7Z-QX-ZJ0"/>
+                <outlet property="titleLabel" destination="PJM-YL-TY9" id="RfF-M6-mcM"/>
+                <outlet property="view" destination="pnP-Tv-Uqk" id="stK-xR-wqy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" id="pnP-Tv-Uqk">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="288.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Always important..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="PJM-YL-TY9">
+                    <rect key="frame" x="22.5" y="0.0" width="290.5" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="FeU-KF-4XU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="10" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="UGF-Gy-MO8">
+                    <rect key="frame" x="19.5" y="43" width="296" height="225.5"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="s5U-ry-cZB">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <pageControl opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="SxR-be-pQN">
+                    <rect key="frame" x="106.5" y="268.5" width="122.5" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="9Ue-ow-OHG"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="currentPageIndicatorTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </pageControl>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="1jk-kF-26E"/>
+            <constraints>
+                <constraint firstItem="UGF-Gy-MO8" firstAttribute="leading" secondItem="1jk-kF-26E" secondAttribute="leading" constant="19.5" id="bZ7-4k-PyH"/>
+                <constraint firstItem="SxR-be-pQN" firstAttribute="top" secondItem="UGF-Gy-MO8" secondAttribute="bottom" id="kcP-yb-3Iv"/>
+                <constraint firstItem="1jk-kF-26E" firstAttribute="trailing" secondItem="UGF-Gy-MO8" secondAttribute="trailing" constant="19.5" id="qjo-xp-dG5"/>
+                <constraint firstItem="UGF-Gy-MO8" firstAttribute="top" secondItem="PJM-YL-TY9" secondAttribute="bottom" id="vA1-ry-oyh"/>
+            </constraints>
+            <point key="canvasLocation" x="-253" y="-152"/>
+        </stackView>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

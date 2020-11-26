@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="157px" height="240px" viewBox="0 0 157 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Traffic Light - Red</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Traffic-Light" transform="translate(-13.000000, 0.000000)">
+            <polygon id="Triangle" fill="#403B3B" transform="translate(35.053886, 37.357456) scale(-1, 1) rotate(60.000000) translate(-35.053886, -37.357456) " points="34.8085954 12.9998007 62.9729609 61.7151112 7.13481064 61.4347793"></polygon>
+            <polygon id="Triangle" fill="#403B3B" transform="translate(35.053886, 177.357456) scale(-1, 1) rotate(60.000000) translate(-35.053886, -177.357456) " points="34.8085954 152.999801 62.9729609 201.715111 7.13481064 201.434779"></polygon>
+            <polygon id="Triangle" fill="#403B3B" transform="translate(35.053886, 110.357456) scale(-1, 1) rotate(60.000000) translate(-35.053886, -110.357456) " points="34.8085954 85.9998007 62.9729609 134.715111 7.13481064 134.434779"></polygon>
+            <polygon id="Triangle" fill="#403B3B" transform="translate(134.053886, 37.357456) scale(-1, 1) rotate(60.000000) translate(-134.053886, -37.357456) " points="133.808595 12.9998007 161.972961 61.7151112 106.134811 61.4347793"></polygon>
+            <polygon id="Triangle" fill="#403B3B" transform="translate(133.053886, 177.357456) scale(-1, 1) rotate(60.000000) translate(-133.053886, -177.357456) " points="132.808595 152.999801 160.972961 201.715111 105.134811 201.434779"></polygon>
+            <polygon id="Triangle" fill="#403B3B" transform="translate(134.053886, 110.357456) scale(-1, 1) rotate(60.000000) translate(-134.053886, -110.357456) " points="133.808595 85.9998007 161.972961 134.715111 106.134811 134.434779"></polygon>
+            <rect id="Rectangle" fill="#403B3B" x="42" y="-5.68434189e-14" width="100" height="240" rx="19"></rect>
+            <ellipse id="Oval" fill="#FF3B00" cx="92" cy="48.5" rx="31" ry="33.5"></ellipse>
+            <ellipse id="Oval" fill="#C5BFAA" cx="92" cy="120.5" rx="31" ry="33.5"></ellipse>
+            <ellipse id="Oval" stroke="#ADACAC" fill="#B4BEAF" cx="92" cy="192.5" rx="30.5" ry="33"></ellipse>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,57 @@
+/*
+  Localizable.strings
+  COVID-19 Status
+
+  Created by Vinicius de Andrade Silva on 24/11/20.
+  
+*/
+
+"Green" = "Grün";
+"Yellow" = "Gelb";
+"Red" = "Rot";
+"Dark Red" = "Dunkelrot";
+
+"The phase in your area changed to" = "Die Phase in Ihrer Nähe wurde in geändert";
+"Open the app to see the new guidelines right now" = "Öffnen Sie die App, um die neuen Richtlinien jetzt anzuzeigen";
+
+"No Internet" = "Kein Internet";
+"Could not locate" = "Konnte nicht finden";
+"Outside Germany" = "Außenseite Deutschlands";
+"An error has occured" = "Ein Fehler ist aufgetreten";
+
+"Check your connection to the Internet and try again" = "Überprüfen Sie Ihre Verbindung zum Internet und versuchen Sie es erneut";
+"Please allow the access to your location in your iPhone's Settings" = "Bitte erlauben Sie den Zugriff auf Ihren Standort in den Einstellungen Ihres iPhones";
+"This app can only show guidelines in Germany" = "Diese App kann nur Richtlinien in Deutschland anzeigen";
+"An unexpected error has occurred, please try again later" =  "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut";
+
+"Keep up with the cases in your region" = "Bleiben Sie mit den Fällen in Ihrer Region auf dem Laufenden";
+"Learn about the guidelines to protect you and your community" = "Erfahren Sie mehr über die Richtlinien zum Schutz von Ihnen und Ihrer Gemeinschaft";
+"Grant us permission to check the cases based in your GPS location" = "Gewähren Sie uns die Erlaubnis, die Fälle anhand Ihres GPS-Standorts zu überprüfen";
+"Allow us to send you notification to inform you about the latest changes" = "Erlauben Sie uns, Ihnen eine Benachrichtigung zu senden, um Sie über die neuesten Änderungen zu informieren";
+
+"Continue" = "Fortsetzen";
+
+"cases/100k people" = "Fälle/100k Menschen";
+"Go to Settings" = "Gehe zu den Einstellungen";
+"Try again" = "Versuchen Sie es nochmal";
+"Check out current guidelines" = "Auschecken Sie die aktuellen Richtlinien";
+
+"Guidelines" = "Richtlinien";
+"Always important..." = "Immer wichtig...";
+"Precautions in this phase..." = "Vorsichtsmaßnahmen in dieser Phase...";
+
+"Keep your distance" = "Abstand halten";
+"Wear a mask" = "Maske tragen";
+"Wash your hands" = "Wasch deine Hände";
+"Air rooms regularly" = "Lufträume regelmäßig";
+
+"Limitations of face-to-face contact in public spaces" = "Einschränkungen des persönlichen Kontakts im öffentlichen Raum";
+"Private events (i.e. weddings etc.) with a maximum of 100 participants in closed spaces and a maximum of 200 participants in the open" = "Private Veranstaltungen (d. H. Hochzeiten usw.) mit maximal 100 Teilnehmern in geschlossenen Räumen und maximal 200 Teilnehmern im Freien";
+"Wearing a mask is mandatory when (including, but not limited to) using public transportation, going shopping, eating and drinking in restaurants, bars, etc. and in case minimum distance (1.5m) cannot be kept" = "Das Tragen einer Maske ist obligatorisch, wenn (einschließlich, aber nicht beschränkt auf) die Nutzung öffentlicher Verkehrsmittel, Einkaufen, Essen und Trinken in Restaurants, Bars usw. und der Mindestabstand (1,5 m) nicht eingehalten werden kann";
+"Private parties and contacts: no more than two households or ten people" = "Private Feiern und Kontakte: nicht mehr als zwei Haushalte oder zehn Personen";
+"Curfew and ban on selling as well as consuming alcohol in public spaces from 22:00 on" = "Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 23:00 Uhr";
+"Private parties and contacts: no more than 5 households or five people" = "Private Feiern und Kontakte: nicht mehr als 5 Haushalte oder fünf Personen";
+"Wearing a mask is mandatory in heavily frequented spaces, in pedestrian zones, in public buildings,for all grades during class, in universities, for attendees of (sports) events, etc." = "Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen, in öffentlichen Gebäuden, für alle Klassenstufen während des Unterrichts, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw. obligatorisch";
+"Curfew and ban on selling as well as consuming alcohol in public spaces from 22:00 on" = "Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 22:00 Uhr";
+"Events (e.g. club meetings, sporting events, cultural events, etc.) must not exceed 50 persons" = "Veranstaltungen (z. B. Clubtreffen, Sportveranstaltungen, kulturelle Veranstaltungen usw.) dürfen 50 Personen nicht überschreiten";
+"Closing time for food / gastronomy outlets, ban on alcohol sales and alcohol consumption sales in specific public places form 21:00" = "Schließung der Lebensmittel- / Gastronomie-Verkaufsstellen, Verbot des Alkoholverkaufs und des Alkoholkonsums an bestimmten öffentlichen Orten ab 21:00 Uhr";
